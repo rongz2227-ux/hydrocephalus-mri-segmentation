@@ -74,6 +74,10 @@ Largest Connected Component (LCC) filtering applied to the lateral ventricle pre
 | + LCC post-processing | 0.8988 | 2.319 |
 | + Boundary Loss (α=0.3) + LCC | 0.9087 | 2.431 |
 
+Boundary Loss alpha was selected as 0.3 based on ablation experiments 
+(α=0.1: LV Dice=0.906, HD95=2.581; α=0.3: LV Dice=0.909, HD95=2.431; 
+α=0.5: LV Dice=0.899, HD95=2.330).
+
 ### Volume Estimation vs. Ground Truth
 
 Predicted lateral ventricle volumes show high agreement with manually annotated GT volumes (R² = 0.987, MAE = 12.4 cm³), validating the pipeline for automated volumetric quantification.
