@@ -72,7 +72,7 @@ Largest Connected Component (LCC) filtering applied to the lateral ventricle pre
 |---|---|---|
 | Baseline (overlap=0.25, constant) | 0.8988 | 2.319 |
 | + LCC post-processing | 0.8988 | 2.319 |
-| + Boundary Loss (α=0.5) + LCC | 0.9087 | 2.431 |
+| + Boundary Loss (α=0.3) + LCC | 0.9087 | 2.431 |
 
 ### Volume Estimation vs. Ground Truth
 
