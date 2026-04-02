@@ -178,4 +178,4 @@ python src/extract_lv_features.py
 
 ## Acknowledgements
 
-This work uses [MONAI](https://monai.io/) and the [SwinUNETR](https://arxiv.org/abs/2201.01266) architecture. Clinical data provided by [hospital name].
+This work uses [MONAI](https://monai.io/) and the [SwinUNETR](https://arxiv.org/abs/2201.01266) architecture. 
